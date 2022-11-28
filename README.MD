@@ -1,1 +1,1 @@
-![Alt text](BCP_cloud.gif) / ![](img/pres.gif)
+![Alt text](BCP_cloud.gif) / ![](images/pres.gif)
