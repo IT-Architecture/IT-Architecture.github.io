@@ -4,6 +4,51 @@ body {
   background-color: #ffffff;
 }
 
+.nav-item #loginbtn {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 21px;
+  font-weight: 400;
+  margin: 0px 10px;
+  width: 141px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgb(104 85 224 / 20%);
+  transition: 0.4s;
+  text-align: center;
+}
+
+.nav-item #logoutbtn {
+  display: none;
+  cursor: pointer;
+  border: 0;
+  border-radius: 21px;
+  font-weight: 400;
+  margin: 0px 10px;
+  width: 141px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgb(104 85 224 / 20%);
+  transition: 0.4s;
+ }
+
+ .nav-item #logoutbtn:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+.nav-item #loginbtn:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+
+
+
+#ifconnected {
+  display: flex;
+  justify-content: space-around;
+}
+
 .layout_padding {
   padding: 90px 0;
 }
